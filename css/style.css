@@ -32,7 +32,7 @@ h1, h2, h3, h4 {
 }
 
 p, a {
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 }
 a {
@@ -63,7 +63,7 @@ a:hover {
 	margin: 0 0 2.5rem 0;
 }
 .cover p {
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
 .cover .title {
 
@@ -77,4 +77,46 @@ a:hover {
 	line-height: 1.2;
 	margin: 0;
 }
+.cover .cover-cta {
+	margin-top: 5rem;
+	text-align: center;
+}
+.cover .cover-cta a {
 
+}
+
+.card-speaker {
+	background-color: gray;
+	min-height: 200px;
+
+	display: flex;
+}
+
+.card-speaker .profile {
+	background-color: orange;
+	width: 240px;
+}
+.card-speaker .profile img {
+	background-color: gray;
+	width: 80px;
+	height: 80px;
+}
+
+
+
+footer {
+	margin-top: 15vh;
+	background-color: #1e9ac7;
+	min-height: 120px;
+	width: 100%;
+}
+footer .container .row {
+	text-align: center;
+}
+footer .container {
+	padding: 20px;
+}
+footer .contact p {
+	font-size: 1.2rem;
+	color: white !important;
+}
