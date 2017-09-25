@@ -1,0 +1,80 @@
+:root {
+	--pink-color: #ff7e38;
+	--blue-color: #1e9ac7;
+	--black-color: #333;
+	--gray-color: #666;
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: var(--black-color);
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+p, a {
+	font-size: 1rem;
+	font-weight: 300;
+}
+a {
+	color: var(--pink-color);
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cover {
+	background-image:url(../img/cover_triangles.png);
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+
+    color: white;
+}
+.cover .row {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.cover h1 {
+	font-size: 4rem;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin: 0 0 2.5rem 0;
+}
+.cover p {
+	margin-top: 5rem;
+}
+.cover .title {
+
+}
+.cover .date-location {
+	
+}
+.cover .date-location * {
+	text-transform: uppercase;
+	text-align: right;
+	line-height: 1.2;
+	margin: 0;
+}
+
