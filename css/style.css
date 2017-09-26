@@ -220,4 +220,7 @@ footer .contact p {
 	font-weight: 700;
 	border-radius: 0;
 	padding: 1.8rem;
+	background-color: white;
+	color: var(--violet-color);
+	border: none;
 }
