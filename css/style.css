@@ -44,7 +44,7 @@ a:hover {
 }
 
 .cover {
-	background-image:url(../img/cover_triangles.png);
+	background-image:url(../img/cover_site02.jpg);
 	background-repeat:no-repeat;
     background-size:cover;
     background-position: center bottom;
@@ -101,6 +101,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	align-content: center;
+	justify-content: flex-start;
 }
 
 .card-talk .profile {
@@ -110,10 +111,15 @@ a:hover {
 .card-talk .profile img {
 	width: 80px;
 	height: 80px;
+	background-color: gray;
 }
 
 .card-talk .content {
 	padding: 15px 0 0 15px;
+}
+.card-talk .speaker-name {
+	font-size: 1rem;
+	color: var(--gray-color);
 }
 
 
