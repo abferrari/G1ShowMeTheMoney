@@ -201,7 +201,7 @@ blockquote p {
 footer {
 	margin-top: 0;
 	background-color: var(--blue-color);
-	min-height: 120px;
+	min-height: 80px;
 	width: 100%;
 }
 footer .container .row {
@@ -212,5 +212,12 @@ footer .container {
 }
 footer .contact p {
 	font-size: 1.2rem;
-	color: white !important;
+	color: rgba(255,255,255,0.7); !important;
+	line-height: 1rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 0;
+	padding: 1.8rem;
 }
