@@ -85,6 +85,11 @@ a:hover {
 
 }
 
+.content-talks .row {
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
 .card-talk {
 	min-height: 200px;
 	margin-bottom: 5rem;
