@@ -1,6 +1,6 @@
 :root {
-	--pink-color: #ff7e38;
-	--blue-color: #1e9ac7;
+	--pink-color: #d84395;
+	--blue-color: #201b59;
 	--black-color: #333;
 	--gray-color: #666;
 }
@@ -85,32 +85,36 @@ a:hover {
 
 }
 
-.card-speaker {
-	background-color: gray;
+.card-talk {
 	min-height: 200px;
+	margin-bottom: 5rem;
+	
+	border-left: 6px solid var(--pink-color);
+	border-radius: 6px;
+	box-shadow: 2px 2px 6px #CCC;
 
 	display: flex;
+	align-items: center;
+	align-content: center;
 }
 
-.card-speaker .profile {
-	background-color: orange;
+.card-talk .profile {
 	width: 240px;
 	padding: 5px;
 }
-.card-speaker .profile img {
-	background-color: gray;
+.card-talk .profile img {
 	width: 80px;
 	height: 80px;
 }
 
-.card-speaker .content {
+.card-talk .content {
 	padding: 15px 0 0 15px;
 }
 
 
 .content-testimony {
-	padding: 50px 0;
-	margin-top: 50px;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
 	background-color: #d03690;
 }
 	
@@ -134,29 +138,35 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-blockquote p{
+blockquote p {
 	color: #ebebeb;
 }
 
 .content-partners {
-	padding: 20vh 25vh;
+	padding: 10vh 0;
 }
 
 .content-ticket {
-	background-color: #1a7a9c;
-	color: #fff;
+	padding: 5vh 0;
+	background-color: var(--pink-color);
+	color: white;
 }
 	.content-ticket h2 {
-		color: #fd31cc;
+		color: white;
 	}
 
-.btn-ticket {
-	align-self: center;
+.content-ticket-btn {
+	
 }
+.btn-ticket {
+	margin-top: 2rem;
+}
+
+
 
 footer {
 	margin-top: 0;
-	background-color: #1e9ac7;
+	background-color: var(--blue-color);
 	min-height: 120px;
 	width: 100%;
 }
